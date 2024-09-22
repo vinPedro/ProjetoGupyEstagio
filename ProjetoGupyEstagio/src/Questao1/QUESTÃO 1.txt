@@ -1,0 +1,25 @@
+1) Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0; enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; } imprimir(SOMA);
+
+Ao final do processamento, qual será o valor da variável SOMA?
+
+primeira rodada - 
+
+k=0
+soma= 0
+
+final da primeira rodada - 
+
+k=1
+soma=1
+
+segunda rodada - 
+
+k=1
+soma= 1
+
+final da segunda rodada - 
+
+k=2
+soma=3
+
+seguindo a lógica, o k ao fazer uma rodada soma +1 ao seu valor e após a variável 'soma' somara +k a seu valor. Então ao final da última rodada soma terá o valor de 91, soma = 91.
